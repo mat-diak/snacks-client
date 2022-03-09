@@ -1,15 +1,14 @@
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import "./PremadeTaskOptions.css";
+import OptionButton from "./OptionButton";
 
 function PremadeTaskOptions({task}) {
-  console.log(task.options)
   return (
     <Card className="premade-option">
       <ListGroup variant="flush">
         {task.options && task.options.map((recipe) => (
-
-        <ListGroup.Item className="premade-option">{recipe}</ListGroup.Item>
+        <ListGroup.Item className="premade-option">{recipe} <OptionButton taskOptions={task.options}/></ListGroup.Item>
         ))}
       </ListGroup>
     </Card>
