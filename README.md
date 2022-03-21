@@ -1,10 +1,11 @@
 ## Description
 
-This is the client-side of snacks-app. It works alongside a rest API - https://snacks-server.herokuapp.com/api/tasks
+This is the client-side of snacks-app. It works alongside a Rest API - https://snacks-server.herokuapp.com/api/tasks
+Our application can be accessed on https://tidbits-tidbits.netlify.app/
 
 ## Features
 
-- user can add habits they wanna pick up
+- user can add habits they want to pick up
 - user can specify how many times they want to do a task a day
 - user can update the task each time they have had done it
 
